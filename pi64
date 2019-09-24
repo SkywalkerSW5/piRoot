@@ -24,11 +24,11 @@ case $CHOICE in
         1)
 
 echo "Booting into Kali Linux..."
-sudo chroot /home/pi/kali-rpi686/ /bin/su -l pi
+sudo chroot /usr/pi64/kali/ /bin/su -l pi
             ;;
         2)
             echo "Booting into Debian"
-sudo chroot /home/pi/deb-rpi686/ /bin/su -l pi
+sudo chroot /usr/pi64/debian /bin/su -l pi
             ;;
     
 esac
