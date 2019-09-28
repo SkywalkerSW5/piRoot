@@ -6,4 +6,4 @@ piRoot will let you run older versions of Debian and Ubuntu. pi64 will be releas
 
 piRoot will also let you run a virtual Raspbian image.
 
-To install piRoot, click this link, and run the file:
+To install piRoot, go to the wiki page.
