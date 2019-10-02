@@ -1,11 +1,7 @@
-# piRoot
+# piRoot Source Code
 
-Beta 1 is here!
-A way to chroot into Ubuntu, Debian, and Kali Linux. Based off of Rpi686 3.0 Beta 2.
+This is the source code fo piRoot Beta 1. This isn't the normal .deb file. 
 
-piRoot will be a full on application for Raspbian, Ubuntu MATE, and Kali Linux. (Will only be tested with Raspbian)
-piRoot will let you run older versions of Debian and Ubuntu.
 
-piRoot will also let you run a virtual Raspbian image.
+piRoot is a fork and continuation of Rpi686. piRoot has a chroot system that is an amd64 system.
 
-To install piRoot, go to the wiki page.
