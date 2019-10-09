@@ -1,0 +1,78 @@
+#!/bin/bash
+
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=4
+BACKTITLE="piRoot"
+TITLE="piRoot Beta 2"
+MENU="Choose one of the following options:"
+
+OPTIONS=(1 "Debian"
+         2 "Windows 98"
+         3 "Ubuntu"
+         )
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+#!/bin/bash
+
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=4
+BACKTITLE="piRoot"
+TITLE="piRoot Beta 2"
+MENU="Choose one of the following options:"
+
+OPTIONS=(1 "Root"
+         2 "Standard"
+         )
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+        echo "Booting into Debian..."
+sudo chroot /usr/piRoot/debian/ /bin/su -l root
+            ;;
+        2)
+echo "Booting into Debian..."
+sudo chroot /usr/piRoot/debian/ /bin/su -l root
+            ;;
+
+esac
+
+
+            ;;
+        2)
+
+echo "Starting Windows 98...."
+qemu-system-i386 -hdd /usr/piRoot/windows/vhd/win98.img -cdrom /usr/piRoot/windows/win98.iso -m 512
+;;
+
+            3)
+           
+echo "Starting Ubuntu..."
+qemu-system-i386 -m 512 -hdd /usr/piRoot/ubuntu/vhd/ubuntu.img -cdrom /usr/piRoot/ubuntu/iso/ubuntu.iso
+;;
+            
+
+esac
+
+
+
