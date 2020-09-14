@@ -1,0 +1,43 @@
+SPL 2-Redistribution Clause 
+
+License issued by SkywalkerSW5, for piRoot
+
+Copyright (c) 2020 SkywalkerSW5
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+Any forking, sharing, or modifying the project must remain under the SPL v2 License, unless okayed by original writer.
+
+You must retain credit to the original writer or the code in this license.
+
+You may sell the code, as long as it stays under this license.
+
+No using any of the code in the project for a patent.
+
+Any code used in the project must have an open-source license.
+
+If you are merging 2 or more projects, and they have different licenses including this one, you can change this license to the following:
+    
+    Apache License 2.0
+    GNU GPL v3
+    GNU AGPL v3
+    GNU LGPU v3
+    Mozilla Public License 2.0
+    MIT License
+    SPL v1
+    
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
